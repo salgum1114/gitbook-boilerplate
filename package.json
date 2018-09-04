@@ -1,0 +1,21 @@
+{
+  "name": "gitbook-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "docs:build": "gitbook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gitbook": "^3.2.3",
+    "gitbook-cli": "^2.3.2",
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "q": "^1.5.1"
+  }
+}
