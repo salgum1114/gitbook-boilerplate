@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp",
+    "start": "gitbook install && gulp",
     "clean": "gulp clean",
     "all": "npm run build && npm run pdf",
     "pdf": "gitbook pdf ./docs ./_book/mybook.pdf",
@@ -24,6 +24,8 @@
     "q": "^1.5.1"
   },
   "dependencies": {
-    "ebook-convert": "^2.0.1"
+    "ebook-convert": "^2.0.1",
+    "gitbook-plugin-highlight": "^2.0.3",
+    "gitbook-plugin-theme-corezoid": "^1.1.4"
   }
 }

@@ -6,8 +6,18 @@
         "lunr",
         "search",
         "highlight",
-        "livereload"
+        "livereload",
+        "theme-corezoid",
+        "-sharing"
     ],
+    "variables": {
+        "themeCorezoid": {
+            "langs": [
+                "ru",
+                "en"
+            ]
+        }
+    },
     "pdf": {
         "toc": true,
         "pageNumbers": true,
@@ -19,5 +29,6 @@
             "top": 72,
             "bottom": 72
         }
-    }
+    },
+    "sidebar": false
 }
