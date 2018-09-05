@@ -6,14 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
-    "docs:build": "gitbook build"
+    "clean": "gulp clean",
+    "build": "gitbook build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.7",
+    "del": "^3.0.0",
     "gitbook": "^3.2.3",
     "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-collapsible-menu-ex": "^1.0.4",
     "gulp": "^3.9.1",
     "gulp-run": "^1.7.1",
     "q": "^1.5.1"
