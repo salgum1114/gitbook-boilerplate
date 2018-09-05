@@ -7,5 +7,17 @@
         "search",
         "highlight",
         "livereload"
-    ]
+    ],
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 10,
+        "paperSize": "letter",
+        "margin": {
+            "right": 72,
+            "left": 72,
+            "top": 72,
+            "bottom": 72
+        }
+    }
 }
