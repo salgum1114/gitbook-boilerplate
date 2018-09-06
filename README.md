@@ -9,5 +9,6 @@
 # Required items to output PDF, ePub, and Mobi
 - Access https://calibre-ebook.com/download
 - Windows 64bit download
+- Windows CMD reboot
 - After npm run pdf
    - Output result mybook.pdf
